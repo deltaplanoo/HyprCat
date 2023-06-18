@@ -1,0 +1,25 @@
+#▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+#██░▄▄▀██░██░██░▀██░██░▄▄▄░█▄▄░▄▄
+#██░██░██░██░██░█░█░██▄▄▄▀▀███░██
+#██░▀▀░██▄▀▀▄██░██▄░██░▀▀▀░███░██
+#▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+# catppuccin themed dunstrc by Deltaplanoo
+
+[global]
+monitor = "1"
+font = "Monospace 9"
+frame_color = "#ca9ee6"
+separator_color= frame
+
+[urgency_low]
+background = "#313445"
+foreground = "#C6D0F5"
+
+[urgency_normal]
+background = "#313445"
+foreground = "#C6D0F5"
+
+[urgency_critical]
+background = "#313445"
+foreground = "#C6D0F5"
+frame_color = "#e78284"

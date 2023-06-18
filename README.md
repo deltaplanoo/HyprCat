@@ -1,9 +1,19 @@
-#My Catpuccin themed Arch rice.
+# My Catpuccin themed Arch rice.
 
-###TODOs
-- [x] Hyprland
-- [ ] Waybar
+### TODOs
+- [ ] Hyprland
+  - [ ] change window border color
+- [x] Hyprpaper
+- [x] Waybar
+  - [ ] may add mpd
 - [ ] Alacritty
 - [ ] Wofi
-- [ ] Neovim
-- [ ] system clock
+  - [ ] custom launcher colors
+  - [ ] power menu
+- [x] Neovim
+- [x] System clock
+- [ ] Stow Hyprpaper and Spicetify
+- [x] Dunst
+- [x] Spicetify
+- [x] Discord
+- [ ] Nautilus
