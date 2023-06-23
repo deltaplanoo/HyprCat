@@ -1,6 +1,13 @@
 # My Catppuccin themed Arch rice.
 
-Stow usage: ``
+Stow usage:
+  - **stow a package to your .configs**:
+  cd into catppuccin dir and use `stow -S pkgname` changing pkgname with the name of the package you want to stow in your `~/.config`
+  - **add new package to your folder**:
+    - `mkdir -p ~/catppuccinarch/pkgname/.config/pkgname`
+    - `mv ~/.config/pkgname/* ~/catppuccinarch/pkgname/.config/pkgname`
+    - `cd ~/catppuccinarch`
+    - and finally `stow -S pkgname`
 
 ### TODOs
 - [ ] Hyprland
