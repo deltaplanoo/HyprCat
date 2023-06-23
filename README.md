@@ -1,4 +1,6 @@
-# My Catpuccin themed Arch rice.
+# My Catppuccin themed Arch rice.
+
+Stow usage: ``
 
 ### TODOs
 - [ ] Hyprland
@@ -7,8 +9,8 @@
 - [x] Waybar
   - [ ] may add mpd
 - [ ] Alacritty
-- [ ] Wofi
-  - [ ] custom launcher colors
+- [x] Wofi
+  - [x] custom launcher colors
   - [ ] power menu
 - [x] Neovim
 - [x] System clock
