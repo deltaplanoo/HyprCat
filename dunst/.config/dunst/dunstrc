@@ -7,9 +7,10 @@
 
 [global]
 monitor = "1"
-font = "Monospace 9"
+font = "Readex Pro Medium 9"
 frame_color = "#ca9ee6"
-separator_color= frame
+corner_radius = "15"
+separator_color = frame
 
 [urgency_low]
 background = "#313445"

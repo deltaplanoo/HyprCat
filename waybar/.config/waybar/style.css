@@ -42,10 +42,6 @@ button:hover {
     /* box-shadow: inset 0 -3px #ffffff; #TODO */
 }
 
-#workspaces {
-    border-radius: 13px;
-}
-
 #workspaces button {
     padding: 0 5px;
     background-color: @base;
@@ -85,11 +81,18 @@ button:hover {
 #mode,
 #idle_inhibitor,
 #scratchpad,
-#mpd {
+#mpd,
+#custom-notification,
+#custom-power,
+#workspaces {
     background-color: @base;
     padding: 0 15px;
     color: @text;
-    border-radius: 13px;
+    border-radius: 30px;
+}
+
+#workspaces {
+  padding: 0 10px;
 }
 
 #window,

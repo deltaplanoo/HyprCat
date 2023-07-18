@@ -10,18 +10,20 @@ Catpuccin Frappé Waybar by Deltaplanoo */
   "height": 30, // Waybar height (to be removed for auto height)
   "spacing": 4, // Gaps between modules (4px)
   "modules-left": [
-    "wlr/workspaces"
+    "custom/power",
+    "wlr/workspaces",
+    "mpd"
   ],
   "modules-center": [
     "clock"
   ],
   "modules-right": [
-    "mpd",
     "pulseaudio",
     "cpu",
     "memory",
     "temperature",
-    "tray"
+    "tray",
+    "custom/notification"
   ],
   // Modules configuration
   "wlr/workspaces": {
@@ -107,6 +109,22 @@ Catpuccin Frappé Waybar by Deltaplanoo */
       ]
     },
     "on-click": "pactl set-sink-mute @DEFAULT_SINK@ toggle"
+  },
+  "custom/notification": {
+    "format": "{icon}",
+    "exec-on-event": "on-click",
+    "on-click": "dunst history",
+    "format-icons": {
+      "default": ""
+    }
+  },
+  "custom/power": {
+    "format": "{icon}",
+    "exec-on-event": "on-click",
+    "on-click": "sh $HOME/.config/waybar/power.sh",
+    "format-icons": {
+      "default": "󰣇"
+    }
   },
   "custom/media": {
     "format": "{icon} {}",

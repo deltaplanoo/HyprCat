@@ -19,6 +19,9 @@ import:
   # available, otherwise `xterm-256color` is used.
   #TERM: alacritty
 
+window:
+  opacity: 0.9
+
 #window:
   # Window dimensions (changes require restart)
   #
