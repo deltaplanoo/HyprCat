@@ -1,6 +1,6 @@
 # My Catppuccin themed Arch rice.
 
-![screenshot](./Images/1681604374.png)
+![screenshot](./Images/this.png)
 
 ### Setup
 Stow usage:
