@@ -11,8 +11,8 @@ Catpuccin Frappé Waybar by Deltaplanoo */
   "spacing": 4, // Gaps between modules (4px)
   "modules-left": [
     "custom/power",
-    "wlr/workspaces",
-    "mpd"
+    "wlr/workspaces"
+    //FIXME "mpd"
   ],
   "modules-center": [
     "clock"
@@ -32,10 +32,10 @@ Catpuccin Frappé Waybar by Deltaplanoo */
     "on-click": "activate",
     "format": "{icon}",
     "format-icons": {
-      "urgent": "",
-      "active": "",
-      "unfocused": "",
-      "default": ""
+      "urgent": "!",
+      "active": "+",
+      "unfocused": "o",
+      "default": "o"
     }
   },
   "mpd": {
