@@ -11,8 +11,8 @@ Catpuccin Frappé Waybar by Deltaplanoo */
   "spacing": 4, // Gaps between modules (4px)
   "modules-left": [
     "custom/power",
-    "wlr/workspaces",
-    "mpd"
+    "wlr/workspaces"
+    //FIXME "mpd"
   ],
   "modules-center": [
     "clock"
