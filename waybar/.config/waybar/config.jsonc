@@ -32,10 +32,10 @@ Catpuccin Frappé Waybar by Deltaplanoo */
     "on-click": "activate",
     "format": "{icon}",
     "format-icons": {
-      "urgent": "",
-      "active": "",
-      "unfocused": "",
-      "default": ""
+      "urgent": "!",
+      "active": "+",
+      "unfocused": "o",
+      "default": "o"
     }
   },
   "mpd": {
