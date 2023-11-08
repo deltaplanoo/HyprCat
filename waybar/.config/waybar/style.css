@@ -84,6 +84,7 @@ button:hover {
 #mpd,
 #custom-notification,
 #custom-power,
+#custom-wl-gammarelay-temperature,
 #workspaces {
     background-color: @base;
     padding: 0 15px;
@@ -114,19 +115,23 @@ button:hover {
 /* label:focus { */
 /* } */
 
-#cpu {
-    color: @peach;
-}
-
-#memory {
-    color: @yellow;
-}
-
-#disk {
+#custom-wl-gammarelay-temperature {
+    color: @Red;
 }
 
 #pulseaudio {
-    color: @red;
+    color: @peach;
+}
+
+#cpu {
+    color: @yellow;
+}
+
+#memory {
+    color: @green;
+}
+
+#disk {
 }
 
 #pulseaudio.muted {
@@ -154,7 +159,7 @@ button:hover {
 }
 
 #temperature {
-    color: @green;
+    color: @blue;
 }
 
 #temperature.critical {

@@ -18,6 +18,7 @@ Catpuccin Frappé Waybar by Deltaplanoo */
     "clock"
   ],
   "modules-right": [
+    "custom/wl-gammarelay-temperature",
     "pulseaudio",
     "cpu",
     "memory",
@@ -37,6 +38,12 @@ Catpuccin Frappé Waybar by Deltaplanoo */
       "unfocused": "",
       "default": ""
     }
+  },
+  "custom/wl-gammarelay-temperature": {
+    "format": "{} ",
+    "exec": "wl-gammarelay --subscribe Temperature",
+    "on-scroll-up": "busctl --user -- call rs.wl-gammarelay / rs.wl.gammarelay UpdateTemperature n +100",
+    "on-scroll-down": "busctl --user -- call rs.wl-gammarelay / rs.wl.gammarelay UpdateTemperature n -100"
   },
   "mpd": {
     "format": "{stateIcon} {consumeIcon}{randomIcon}{repeatIcon}{singleIcon}{artist} - {album} - {title} ({elapsedTime:%M:%S}/{totalTime:%M:%S}) ⸨{songPosition}|{queueLength}⸩ {volume}% ",

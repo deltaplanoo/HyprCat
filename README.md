@@ -1,14 +1,14 @@
-# My Catppuccin themed Arch rice.
+# My Catppuccin themed Hyprland rice.
 
 ![screenshot](./Images/this.png)
 
 ### Setup
 Stow usage:
   - **stow a package to your .configs**:
-  cd into catppuccin dir and use `stow -S pkgname` changing pkgname with the name of the package you want to stow in your `~/.config`
+  cd into HyprCat dir and use `stow -S pkgname` changing pkgname with the name of the package you want to stow in your `~/.config`
   - **add new package to your folder**:
-    - `mkdir -p ~/catppuccinarch/pkgname/.config/pkgname`
-    - `mv ~/.config/pkgname/* ~/catppuccinarch/pkgname/.config/pkgname`
+    - `mkdir -p ~/HyprCat/pkgname/.config/pkgname`
+    - `mv ~/.config/pkgname/* ~/HyprCat/pkgname/.config/pkgname`
     - `cd ~/catppuccinarch`
     - and finally `stow -S pkgname`
 
