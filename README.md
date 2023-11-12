@@ -9,7 +9,7 @@ Stow usage:
   - **add new package to your folder**:
     - `mkdir -p ~/HyprCat/pkgname/.config/pkgname`
     - `mv ~/.config/pkgname/* ~/HyprCat/pkgname/.config/pkgname`
-    - `cd ~/catppuccinarch`
+    - `cd ~/HyprCat`
     - and finally `stow -S pkgname`
 
 ### TODOs
