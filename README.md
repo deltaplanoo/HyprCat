@@ -22,18 +22,19 @@ Stow usage:
 - [x] Waybar
   - [ ] add mpd (i think i have to compile the version that supports it)
   - [x] add notifications via dunst history
-- [ ] Alacritty
+- [ ] Kitty
   - [ ] ?
 - [x] Wofi
   - [x] custom launcher colors
   - [x] power menu
-- [x] Neovim
+- [ ] Neovim
 - [x] System clock
 - [x] Stow
 - [ ] Dunst
   - [x] custom colors
   - [x] rounded border
   - [ ] notification history on waybar  #FIXME: dunst history not working
+- [ ] Grub
 - [x] Spicetify
 - [x] Discord
 - [ ] Nautilus
