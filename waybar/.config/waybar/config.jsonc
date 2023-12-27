@@ -20,9 +20,6 @@ Catpuccin Frappé Waybar by Deltaplanoo */
   "modules-right": [
     "custom/wl-gammarelay-temperature",
     "pulseaudio",
-    "cpu",
-    "memory",
-    "temperature",
     "tray",
     "custom/notification"
   ],
