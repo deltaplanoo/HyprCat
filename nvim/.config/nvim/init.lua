@@ -15,6 +15,7 @@ require('base')
 require('highlights')
 require('os')
 require('maps')
+-- require('lualine')
 
 vim.g.mapleader = " "
 
@@ -28,7 +29,17 @@ require("lazy").setup({
   { "nvim-treesitter/nvim-treesitter"},	-- :TSInstall <lang> to install syntax highlighting for that <lang>
   { "nvim-tree/nvim-web-devicons" },
   { "nvim-telescope/telescope.nvim", tag = '0.1.5'},
+  { 'nvim-lualine/lualine.nvim',
+    dependencies = { 'nvim-tree/nvim-web-devicons' }},
+
 })
 
 vim.cmd.colorscheme "catppuccin-frappe"
+
+require('lualine').setup {
+    options = {
+        theme = "catppuccin"
+        -- ... the rest of your lualine config
+    }
+}
 

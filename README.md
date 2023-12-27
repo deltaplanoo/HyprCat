@@ -31,6 +31,7 @@ Stow usage:
   - [x] Lazy
   - [x] maps
   - [x] telescope
+  - [x] lualine
   - [ ] alpha
   - [ ] filetree
 - [x] System clock
