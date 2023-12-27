@@ -28,6 +28,11 @@ Stow usage:
   - [x] custom launcher colors
   - [x] power menu
 - [ ] Neovim
+  - [x] Lazy
+  - [x] maps
+  - [x] telescope
+  - [ ] alpha
+  - [ ] filetree
 - [x] System clock
 - [x] Stow
 - [ ] Dunst
