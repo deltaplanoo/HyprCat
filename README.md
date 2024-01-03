@@ -22,8 +22,12 @@ Stow usage:
 - [x] Waybar
   - [ ] add mpd (i think i have to compile the version that supports it)
   - [x] add notifications via dunst history
-- [ ] Kitty
-  - [ ] ?
+- [x] Zsh
+  - [x] autosugg
+  - [x] exa (ls replacement)
+  - [x] aliases
+- [x] Kitty
+  - [x] catppuccin theme
 - [x] Wofi
   - [x] custom launcher colors
   - [x] power menu
@@ -38,9 +42,10 @@ Stow usage:
 - [x] Stow
 - [ ] Dunst
   - [x] custom colors
-  - [x] rounded border
+  - [x] rounded borders
   - [ ] notification history on waybar  #FIXME: dunst history not working
 - [ ] Grub
 - [x] Spicetify
 - [x] Discord
 - [ ] Nautilus
+  - [ ] catppuccin theme
