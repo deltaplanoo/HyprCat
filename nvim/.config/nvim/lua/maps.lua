@@ -15,7 +15,7 @@ keymap.set('n', '<C-v>', 'p')
 keymap.set('n', '<C-a>', 'gg<S-v>G')
 
 -- New tab
-keymap.set('n', '<C-t>', ':tabedit<Return>', { silent = true})
+keymap.set('n', '<C-t>', ':tabedit<Return>', { silent = true })
 
 -- Telescope
 keymap.set('n', 'ff', ':Telescope find_files<cr>')
