@@ -23,3 +23,6 @@ keymap.set('n', 'fg', ':Telescope live_grep<cr>')
 keymap.set('n', 'fb', ':Telescope buffers<cr>')
 keymap.set('n', 'fh', ':Telescope help_tags<cr>')
 
+-- Neotree
+keymap.set('n', '<C-e>', ':Neotree<cr>')
+
