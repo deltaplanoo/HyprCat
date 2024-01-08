@@ -27,6 +27,7 @@ alias yeet="sudo pacman -Rs"
 alias ls="exa"
 alias la="exa -a"
 alias ll="exa -la"
+alias lg="lazygit"
 
 # Autostart
 rxfetch
