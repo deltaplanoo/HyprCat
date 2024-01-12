@@ -50,6 +50,8 @@ require("lazy").setup({
 
 vim.cmd.colorscheme "catppuccin-macchiato"
 
+require "plugins.alpha"
+
 require('lualine').setup {
     options = {
         theme = "catppuccin"
