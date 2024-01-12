@@ -23,8 +23,8 @@ dashboard.section.header.val = {
    dashboard.button("e", "  New file", ":ene <BAR> startinsert <CR>"),
    dashboard.button("r", "  Recently used files", ":Telescope oldfiles <CR>"),
    dashboard.button("t", "  Find text", ":Telescope live_grep <CR>"),
-   dashboard.button("c", "  Configuration", ":e ~/.config/nvim/init.vim<CR>"),
-   dashboard.button("q", "  Quit Neovim", ":qa<CR>"),
+   dashboard.button("c", "  Configuration", ":e ~/.config/nvim/init.lua<CR>"),
+   dashboard.button("q", "  Quit", ":qa<CR>"),
 }
 
 function getDJKhaledQuote()
@@ -49,12 +49,13 @@ function getDJKhaledQuote()
         "Tell them to bring out the lobster!",
         "Shrimp what?",
         "Roses are red, violets are blue...",
-        "Le's go to the beach / Let's go swimming.",
+        "Let's go to the beach / Let's go swimming.",
         "Tell 'em to bring out the king crab!",
         "Call me cinnamon toast crunch.",
         "Call me Tiger Woods",
         "It's worth the wait.",
     }
+    math.randomseed(os.time())
     local randomIndex = math.random(1, #quotes) 
     return quotes[randomIndex]
 end
